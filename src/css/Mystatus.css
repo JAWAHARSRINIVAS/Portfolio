@@ -1,0 +1,301 @@
+.my-status {
+  padding: 3rem 0rem;
+  color: #fff;
+  width: 100%;
+}
+
+.my-status .title {
+  line-height: 4.5rem;
+  text-transform: uppercase;
+  margin: 0% 10%;
+}
+.my-status .bg-text {
+  text-align: center;
+  font-size: 5.5rem;
+  color: #2a2e35;
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  font-weight: 800;
+}
+
+.my-status .main-text {
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.my-status .main-text span {
+  color: #27ae60;
+}
+
+/* ************************************* */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 10%;
+}
+hr {
+  margin: 3.5rem auto;
+  border: 1px solid #2a2e35;
+  width: 50%;
+  max-width: 25%;
+}
+.heading {
+  margin: 1rem auto 1rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1.5rem 0;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 0.7rem;
+}
+
+.left-info {
+  color: #dbe1e8;
+  line-height: 2rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  text-indent: 3rem;
+  width: 35%;
+  padding: 3rem 0rem 3rem;
+}
+
+.right-info {
+  width: 55%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 1rem 2rem;
+  flex-direction: column;
+}
+
+.right-info .about-item {
+  border: 1px solid #2a2e35;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 2px 15px rgb(0 0 0 / 10%);
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.right-info .about-item:hover {
+  border: 1px solid #27ae60;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.abt-text {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.large-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #27ae60;
+}
+
+.small-text {
+  padding-left: 3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #dbe1e8;
+  letter-spacing: 2px;
+}
+
+.small-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 2rem;
+  height: 2px;
+  background-color: #2a2e35;
+}
+
+.about button {
+  margin: 1rem 0.5rem;
+  border-radius: 30px;
+  height: 55px;
+  width: 15em;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-top: 1rem;
+  border: 1px solid #27ae60;
+  align-items: center;
+
+  background: linear-gradient(to right, transparent 50%, #27ae60 50%);
+  background-color: transparent;
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all 0.5s ease-out;
+}
+
+.about button i {
+  background-color: #27ae60;
+  border-radius: 50%;
+  padding: 1rem;
+  float: right;
+  margin-top: -1rem;
+}
+
+.about button:hover {
+  background-position: right bottom;
+}
+/* ****************  MYSKILL    *********************************** */
+.progress-bars {
+  margin: 0% 10%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  /* height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden; */
+}
+
+.progress-container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.prog-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.progress-con {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.prog-text {
+  color: #b2becd;
+}
+
+.progress {
+  height: 0.45rem;
+  width: 100%;
+  background-color: #454e56;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #27ae60;
+  transition: all 0.4s ease-in-out;
+}
+
+/********************   Education    ************************************************** */
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 0 1rem; */
+  margin: 0% 5% 0 10%;
+}
+.edu-container {
+  margin: 0 0% 0 4%;
+  width: 38%;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+  border-left: 1px solid #2a2e35;
+}
+.grade {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #2a2e35;
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+  display: inline-block;
+  color: #dbe1e8;
+}
+
+.ti-icon {
+  position: absolute;
+  margin-top: 0;
+  margin-left: -5.5rem;
+  background-color: #27ae60;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edu-container .year {
+  margin: 1rem 0rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #b2becd;
+}
+
+.edu-container > .year > span {
+  color: #fff;
+}
+
+.edu-container > .info {
+  color: #b2becd;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1025px) {
+  .left-info {
+    display: block;
+    width: 100%;
+  }
+  .right-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .right-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .my-status .title {
+    line-height: 3rem;
+  }
+  .my-status .bg-text {
+    font-size: 4rem;
+  }
+  .my-status .main-text {
+    font-size: 3rem;
+  }
+  .heading {
+    font-size: 1.7rem;
+    letter-spacing: 0.45rem;
+  }
+
+  .my-status .about .left-info > button {
+    width: 10em;
+  }
+
+  .my-status .about .right-info {
+    padding: 0rem;
+  }
+}

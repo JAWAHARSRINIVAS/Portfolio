@@ -1,0 +1,206 @@
+.my-projects {
+  padding: 3rem 0rem;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.my-projects .title {
+  line-height: 0rem;
+  text-transform: uppercase;
+  margin: 0% 10%;
+  padding: 3rem;
+}
+.my-projects .bg-text {
+  text-align: center;
+  font-size: 5.5rem;
+  color: #192437;
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  font-weight: 800;
+}
+
+.my-projects .main-text {
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.my-projects .main-text span {
+  color: #27ae60;
+}
+
+.my-projects .port-text {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #b2becd;
+}
+
+/* ********************************************* */
+/*                  Project CARD */
+/* ********************************************* */
+
+.my-projects .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.projects-list .project-card {
+  width: 30%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card .front-card .pro-img-container {
+  width: 90%;
+  height: 90%;
+}
+
+.project-card .front-card .project-title {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 1rem 0rem;
+}
+
+.project-card .front-card .pro-img-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.hover-items {
+  width: 100%;
+  height: 100%;
+  background-color: #27ae60;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transform: scale(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.hover-items h3 {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 0.1rem;
+}
+
+.hover-items p {
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: black;
+  text-align: justify;
+}
+
+.hover-items .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-items .icons .icon {
+  background-color: #2a2e35;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.hover-items .icons .icon i {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.project-card .front-card:hover .hover-items {
+  transform: scale(1);
+}
+
+/* ********************************************* */
+/*                  SERVICE CARD */
+/* ********************************************* */
+
+/* .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10%;
+  gap: 0rem;
+  row-gap: 2rem;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.service-list .service-card {
+  width: 45%;
+}
+
+.service-list .service-card .enclosing-service-front-card {
+  width: 25%;
+  border: 2px solid #2a2e35;
+  box-shadow: 1px 2px 15px rgb(0 0 0 / 100%);
+  margin: 5%;
+  padding: 10%;
+  height: 63%;
+  align-items: center;
+}
+
+.enclosing-service-front-card:hover {
+  border: 2px solid #27ae60;
+  background-color: #27ae60;
+  margin-top: -1;
+  margin-left: -1;
+}
+
+.service-list .service-card .service-front-card {
+  margin: 1rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.service-front-card .service-title {
+  color: #6c7983;
+  opacity: 0.8;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 30%;
+} */
+
+@media only screen and (max-width: 900px) {
+  .projects-list .project-card {
+    width: 40%;
+  }
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.Profile {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left {
+  width: 40%;
+  float: left;
+}
+
+.h-shape {
+  margin-left: -27%;
+  rotate: 90deg;
+  height: 100vh;
+  overflow: hidden;
+  float: left;
+}
+
+.profile-image {
+  position: absolute;
+  float: left;
+  height: 95%;
+  width: 45%;
+  top: 5%;
+  left: 2.5%;
+}
+.profile-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.right {
+  float: left;
+  line-height: 75px;
+  margin: 10% 5% 0 10%;
+  color: #6c7983;
+  font-size: 1.4375rem;
+}
+
+.right h2 {
+  color: white;
+}
+
+.right h2 span {
+  color: #27ae60;
+}
+
+.right p {
+  font-size: 1.5rem;
+  color: #b2becd;
+  font-weight: 500;
+}
+
+.right .about {
+  width: 20em;
+  line-height: normal;
+  padding-bottom: 35px;
+}
+
+.right button {
+  border-radius: 30px;
+  height: 55px;
+  width: 15em;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-top: 1rem;
+  border: 1px solid #27ae60;
+  align-items: center;
+
+  background: linear-gradient(to right, transparent 50%, #27ae60 50%);
+  background-color: transparent;
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all 0.5s ease-out;
+}
+
+.right button i {
+  background-color: #27ae60;
+  border-radius: 50%;
+  padding: 1rem;
+  float: right;
+  margin-top: -1rem;
+}
+
+.right button:hover {
+  background-position: right bottom;
+}
+
+@media only screen and (max-width: 1050px) {
+  .Profile {
+    height: 280vh;
+  }
+  .left svg {
+    display: none;
+  }
+
+  .right {
+    margin-bottom: 10rem;
+  }
+
+  .profile-image {
+    position: absolute;
+    height: 200%;
+    width: 95%;
+    top: 70%;
+    object-position: 0% 0%;
+  }
+  .profile-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .profile-image {
+    margin-top: -10rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .right {
+    width: 80%;
+  }
+
+  .profile-image {
+    top: 180px;
+  }
+
+  .profile-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
