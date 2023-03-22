@@ -12,7 +12,7 @@ function Projectcard(props) {
         <div className="project-title">{props.proObj.title}</div>
         <div className="hover-items">
           <h3>{props.proObj.title}</h3>
-          <p>{props.proObj.description}</p>
+         <p>{props.proObj.description}</p>
           <div className="icons">
             <a
               href="https://github.com/JAWAHARSRINIVAS"

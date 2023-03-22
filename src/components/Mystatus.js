@@ -66,7 +66,7 @@ function Mystatus() {
           <div className="left-info">
             <div>{data.info}</div>
             <button>
-              Download cv <i className="fa-solid fa-download"></i>
+              <a href="Resume.pdf"  download >Download cv <i className="fa-solid fa-download"></i></a>
             </button>
           </div>
           <div className="right-info">

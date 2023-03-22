@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/profile.css';
 
+
 function Profile() {
   return (
     <div className="Profile">
@@ -17,7 +18,7 @@ function Profile() {
           ></path>
         </svg>
         <div className="profile-image">
-          <img src="images/nivas.jpg" alt="nivas" />
+          <img src="images/nivas1.jpg" alt="nivas" />
         </div>
       </div>
 
@@ -31,7 +32,7 @@ function Profile() {
           I am a web Developer, I love to create professional websites
         </div>
         <button>
-          Download cv <i className="fa-solid fa-download"></i>
+          <a href="Resume.pdf"  download >Download cv <i className="fa-solid fa-download"></i></a>
         </button>
       </div>
     </div>
