@@ -200,7 +200,43 @@
 } */
 
 @media only screen and (max-width: 900px) {
+  .my-projects .bg-text{
+    font-size: 4.5rem;
+  }
   .projects-list .project-card {
     width: 40%;
   }
+
+}
+@media screen and (max-width: 750px) {
+  .my-projects .bg-text {
+    font-size: 4rem;
+  }
+  .my-projects .main-text {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .my-projects .bg-text {
+    font-size: 3.25rem;
+  }
+  .my-projects .main-text {
+    font-size: 2.5rem;
+  }
+  .my-projects .title {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .my-projects .bg-text {
+    font-size: 2.25rem;
+  }
+  .my-projects .main-text {
+    font-size: 1.8rem;
+  }
+  .my-projects .title {
+    margin: 0 2.5%;
+  }
+
 }
